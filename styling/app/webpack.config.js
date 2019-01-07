@@ -12,5 +12,7 @@ module.exports = {
       test: /\.js$/,
       exclude: /node_modules/
     }]
-  }
+  },
+  devtool: 'cheap-module-eval-source-map'
+  //cheap-module-eval-source-map is a easy way to debug console error.
 };
