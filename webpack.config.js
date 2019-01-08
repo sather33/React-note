@@ -17,5 +17,6 @@ module.exports = {
   //cheap-module-eval-source-map is a easy way to debug console error.
   devServer: {
     contentBase:  path.join(__dirname, 'public'),
+    historyApiFallback: true
   },
 };
